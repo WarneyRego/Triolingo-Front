@@ -1,0 +1,253 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Salutations",
+      "description": "Aprenda a cumprimentar em francês.",
+      "level": 1,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Olá' em francês?",
+          "options": [
+            { "label": "Bonjour", "isCorrect": true },
+            { "label": "Au revoir", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Oui", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem! 'Bonjour' é a forma certa de dizer 'Olá'.",
+            "wrong": "A resposta correta é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Bom dia'",
+          "answer": ["bonjour"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com a saudação correta",
+          "sentence": "___ Marie, comment vas-tu aujourd'hui?",
+          "options": ["Bonjour", "Au revoir", "Merci", "Pardon"],
+          "answer": "Bonjour",
+          "feedback": {
+            "correct": "Muito bem! 'Bonjour' é usado para cumprimentar alguém.",
+            "wrong": "A saudação correta para iniciar uma conversa é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+          "options": [
+            { "label": "Bonne nuit", "isCorrect": true },
+            { "label": "Bonsoir", "isCorrect": false },
+            { "label": "Bonjour", "isCorrect": false },
+            { "label": "Salut", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Bonne nuit'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Boa tarde/noite' (ao cumprimentar)",
+          "answer": ["bonsoir"],
+          "feedback": {
+            "correct": "Você acertou!",
+            "wrong": "A resposta certa é 'Bonsoir'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de despedida",
+          "sentence": "___, à demain!",
+          "options": ["Au revoir", "Bonjour", "Merci", "Pardon"],
+          "answer": "Au revoir",
+          "feedback": {
+            "correct": "Correto! 'Au revoir' é usado para se despedir.",
+            "wrong": "Para se despedir, usamos 'Au revoir'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Présentations",
+      "description": "Aprenda a se apresentar em francês.",
+      "level": 2,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Meu nome é...' em francês?",
+          "options": [
+            { "label": "Je m'appelle", "isCorrect": true },
+            { "label": "Enchanté", "isCorrect": false },
+            { "label": "Au revoir", "isCorrect": false },
+            { "label": "Comment allez-vous", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Je m'appelle' é usado para se apresentar.",
+            "wrong": "A forma certa de dizer 'Meu nome é' é 'Je m'appelle'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Prazer em conhecê-lo'",
+          "answer": ["enchanté", "enchantée"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "Você pode dizer 'Enchanté' (homem) ou 'Enchantée' (mulher)."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de apresentação",
+          "sentence": "Bonjour, je ___ appelle Pierre.",
+          "options": ["m'", "t'", "s'", "nous"],
+          "answer": "m'",
+          "feedback": {
+            "correct": "Perfeito! 'Je m'appelle Pierre' é a forma correta de se apresentar.",
+            "wrong": "Para falar de si mesmo, use 'm''."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Comment allez-vous?'",
+          "options": [
+            { "label": "Como você está?", "isCorrect": true },
+            { "label": "Quem é você?", "isCorrect": false },
+            { "label": "Onde você está?", "isCorrect": false },
+            { "label": "O que você faz?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Como você está?'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Eu sou estudante'",
+          "answer": ["je suis étudiant", "je suis étudiante"],
+          "feedback": {
+            "correct": "Ótimo!",
+            "wrong": "A resposta correta é 'Je suis étudiant' (homem) ou 'Je suis étudiante' (mulher)."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "question": "Complete a resposta para 'Comment ça va?'",
+          "sentence": "Je vais ___, merci.",
+          "options": ["bien", "nom", "étudiant", "bonjour"],
+          "answer": "bien",
+          "feedback": {
+            "correct": "Muito bem! 'Je vais bien, merci' é uma resposta comum.",
+            "wrong": "A resposta comum é 'Je vais bien, merci'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Expressions Basiques",
+      "description": "Aprenda expressões úteis do dia a dia em francês.",
+      "level": 3,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Por favor'",
+          "answer": ["s'il vous plaît", "s'il te plaît"],
+          "feedback": {
+            "correct": "Certo!",
+            "wrong": "A resposta correta é 'S'il vous plaît' (formal) ou 'S'il te plaît' (informal)."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Obrigado'?",
+          "options": [
+            { "label": "Merci", "isCorrect": true },
+            { "label": "Pardon", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Excusez-moi", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'Merci'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de agradecimento",
+          "sentence": "___ pour votre aide!",
+          "options": ["Merci", "Pardon", "Excusez-moi", "S'il vous plaît"],
+          "answer": "Merci",
+          "feedback": {
+            "correct": "Perfeito! 'Merci pour votre aide' é a forma correta de agradecer.",
+            "wrong": "Para agradecer usamos 'Merci'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Traduza: 'Desculpe'",
+          "answer": ["pardon", "excusez-moi", "je suis désolé", "désolé"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "Você pode dizer 'Pardon', 'Excusez-moi', 'Je suis désolé' ou 'Désolé'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Qual expressão você usaria para chamar a atenção educadamente?",
+          "options": [
+            { "label": "Excusez-moi", "isCorrect": true },
+            { "label": "Pardon", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Bonjour", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito educado!",
+            "wrong": "A resposta certa é 'Excusez-moi'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "question": "Complete a resposta para um agradecimento",
+          "sentence": "De ___.",
+          "options": ["rien", "pardon", "s'il vous plaît", "merci"],
+          "answer": "rien",
+          "feedback": {
+            "correct": "Muito bem! A expressão completa é 'De rien'.",
+            "wrong": "A resposta correta para 'Merci' é 'De rien'."
+          }
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,127 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Salutations",
+      "description": "Aprenda a cumprimentar em francês.",
+      "level": 1,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Olá' em francês?",
+          "options": [
+            { "label": "Bonjour", "isCorrect": true },
+            { "label": "Au revoir", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Oui", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem! 'Bonjour' é a forma certa de dizer 'Olá'.",
+            "wrong": "A resposta correta é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Bom dia'",
+          "answer": ["bonjour", "bon matin"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+          "options": [
+            { "label": "Bonne nuit", "isCorrect": true },
+            { "label": "Bonsoir", "isCorrect": false },
+            { "label": "Bonjour", "isCorrect": false },
+            { "label": "Salut", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Bonne nuit'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Traduza: 'Boa tarde'",
+          "answer": ["bon apres-midi", "bon après-midi"],
+          "feedback": {
+            "correct": "Você acertou!",
+            "wrong": "A resposta certa é 'Bon après-midi'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Qual destas opções você usaria ao se despedir em francês?",
+          "options": [
+            { "label": "Au revoir", "isCorrect": true },
+            { "label": "Bonjour", "isCorrect": false },
+            { "label": "Salut", "isCorrect": false },
+            { "label": "Merci", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Certo! 'Au revoir' é usado para se despedir.",
+            "wrong": "Na despedida usamos 'Au revoir'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Présentations",
+      "description": "Aprenda a se apresentar em francês.",
+      "level": 2,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Meu nome é...' em francês?",
+          "options": [
+            { "label": "Je m'appelle", "isCorrect": true },
+            { "label": "Enchanté", "isCorrect": false },
+            { "label": "Au revoir", "isCorrect": false },
+            { "label": "Comment allez-vous", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Je m'appelle' é usado para se apresentar.",
+            "wrong": "A forma certa de dizer 'Meu nome é' é 'Je m'appelle'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Prazer em conhecê-lo'",
+          "answer": ["enchanté", "enchante"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Enchanté'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Comment allez-vous?'",
+          "options": [
+            { "label": "Como você está?", "isCorrect": true },
+            { "label": "Qual é o seu nome?", "isCorrect": false },
+            { "label": "Onde você mora?", "isCorrect": false },
+            { "label": "O que você faz?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Como você está?'."
+          }
+        }
+      ]
+    }
+  ]
+} 

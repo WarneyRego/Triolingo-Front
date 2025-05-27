@@ -1,0 +1,582 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Salutations",
+      "description": "Aprenda a cumprimentar em francês.",
+      "level": 1,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Olá' em francês?",
+          "options": [
+            { "label": "Bonjour", "isCorrect": true },
+            { "label": "Au revoir", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Oui", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem! 'Bonjour' é a forma certa de dizer 'Olá'.",
+            "wrong": "A resposta correta é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Bom dia'",
+          "answer": ["bonjour"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com a saudação correta",
+          "sentence": "___ Marie, comment vas-tu aujourd'hui?",
+          "options": ["Bonjour", "Au revoir", "Merci", "Pardon"],
+          "answer": "Bonjour",
+          "feedback": {
+            "correct": "Muito bem! 'Bonjour' é usado para cumprimentar alguém.",
+            "wrong": "A saudação correta para iniciar uma conversa é 'Bonjour'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+          "options": [
+            { "label": "Bonne nuit", "isCorrect": true },
+            { "label": "Bonsoir", "isCorrect": false },
+            { "label": "Bonjour", "isCorrect": false },
+            { "label": "Salut", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Bonne nuit'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Boa tarde/noite' (ao cumprimentar)",
+          "answer": ["bonsoir"],
+          "feedback": {
+            "correct": "Você acertou!",
+            "wrong": "A resposta certa é 'Bonsoir'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Présentations",
+      "description": "Aprenda a se apresentar em francês.",
+      "level": 2,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Meu nome é...' em francês?",
+          "options": [
+            { "label": "Je m'appelle", "isCorrect": true },
+            { "label": "Enchanté", "isCorrect": false },
+            { "label": "Au revoir", "isCorrect": false },
+            { "label": "Comment allez-vous", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Je m'appelle' é usado para se apresentar.",
+            "wrong": "A forma certa de dizer 'Meu nome é' é 'Je m'appelle'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Prazer em conhecê-lo'",
+          "answer": ["enchanté", "enchantée"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "Você pode dizer 'Enchanté' (homem) ou 'Enchantée' (mulher)."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de apresentação",
+          "sentence": "Bonjour, je ___ appelle Pierre.",
+          "options": ["m'", "t'", "s'", "nous"],
+          "answer": "m'",
+          "feedback": {
+            "correct": "Perfeito! 'Je m'appelle Pierre' é a forma correta de se apresentar.",
+            "wrong": "Para falar de si mesmo, use 'm''."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Comment allez-vous?'",
+          "options": [
+            { "label": "Como você está?", "isCorrect": true },
+            { "label": "Quem é você?", "isCorrect": false },
+            { "label": "Onde você está?", "isCorrect": false },
+            { "label": "O que você faz?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Como você está?'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Eu sou estudante'",
+          "answer": ["je suis étudiant", "je suis étudiante"],
+          "feedback": {
+            "correct": "Ótimo!",
+            "wrong": "A resposta correta é 'Je suis étudiant' (homem) ou 'Je suis étudiante' (mulher)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Expressions Basiques",
+      "description": "Aprenda expressões úteis do dia a dia em francês.",
+      "level": 3,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Por favor'",
+          "answer": ["s'il vous plaît", "s'il te plaît"],
+          "feedback": {
+            "correct": "Certo!",
+            "wrong": "A resposta correta é 'S'il vous plaît' (formal) ou 'S'il te plaît' (informal)."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Obrigado'?",
+          "options": [
+            { "label": "Merci", "isCorrect": true },
+            { "label": "Pardon", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Excusez-moi", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'Merci'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de agradecimento",
+          "sentence": "___ pour votre aide!",
+          "options": ["Merci", "Pardon", "Excusez-moi", "S'il vous plaît"],
+          "answer": "Merci",
+          "feedback": {
+            "correct": "Perfeito! 'Merci pour votre aide' é a forma correta de agradecer.",
+            "wrong": "Para agradecer usamos 'Merci'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Traduza: 'Desculpe'",
+          "answer": ["pardon", "excusez-moi", "je suis désolé", "désolé"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "Você pode dizer 'Pardon', 'Excusez-moi', 'Je suis désolé' ou 'Désolé'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Qual expressão você usaria para chamar a atenção educadamente?",
+          "options": [
+            { "label": "Excusez-moi", "isCorrect": true },
+            { "label": "Pardon", "isCorrect": false },
+            { "label": "S'il vous plaît", "isCorrect": false },
+            { "label": "Bonjour", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito educado!",
+            "wrong": "A resposta certa é 'Excusez-moi'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "title": "Nombres et Heures",
+      "description": "Aprenda números e horas em francês.",
+      "level": 2,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz o número '1' em francês?",
+          "options": [
+            { "label": "Un", "isCorrect": true },
+            { "label": "Deux", "isCorrect": false },
+            { "label": "Trois", "isCorrect": false },
+            { "label": "Quatre", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Un'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'São nove horas'",
+          "answer": ["il est neuf heures"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Il est neuf heures'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "Il est ___ heures et demie.",
+          "options": ["huit", "neuf", "dix", "onze"],
+          "answer": "huit",
+          "feedback": {
+            "correct": "Muito bem! 'Il est huit heures et demie' significa 'São oito e meia'.",
+            "wrong": "A resposta correta é 'huit' (oito)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz o número '10' em francês?",
+          "options": [
+            { "label": "Dix", "isCorrect": true },
+            { "label": "Neuf", "isCorrect": false },
+            { "label": "Onze", "isCorrect": false },
+            { "label": "Huit", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Dix'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com o número",
+          "sentence": "J'ai ___ ans.",
+          "options": ["vingt", "trente", "quarante", "cinquante"],
+          "answer": "vingt",
+          "feedback": {
+            "correct": "Perfeito! 'J'ai vingt ans' significa 'Eu tenho vinte anos'.",
+            "wrong": "A resposta mais comum seria 'vingt' (vinte)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "title": "Nourriture et Restaurant",
+      "description": "Aprenda a falar sobre comida e a se comunicar em restaurantes.",
+      "level": 3,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'A conta, por favor'",
+          "answer": ["l'addition s'il vous plaît"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'L'addition, s'il vous plaît'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual palavra significa 'café da manhã' em francês?",
+          "options": [
+            { "label": "Petit déjeuner", "isCorrect": true },
+            { "label": "Déjeuner", "isCorrect": false },
+            { "label": "Dîner", "isCorrect": false },
+            { "label": "Goûter", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'café da manhã' é 'Petit déjeuner'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete o pedido no restaurante",
+          "sentence": "Je voudrais un ___ de vin rouge, s'il vous plaît.",
+          "options": ["verre", "tasse", "bouteille", "assiette"],
+          "answer": "verre",
+          "feedback": {
+            "correct": "Perfeito! 'Je voudrais un verre de vin rouge' significa 'Eu gostaria de um copo de vinho tinto'.",
+            "wrong": "A resposta correta é 'verre' (copo)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz 'almoço' em francês?",
+          "options": [
+            { "label": "Déjeuner", "isCorrect": true },
+            { "label": "Petit déjeuner", "isCorrect": false },
+            { "label": "Dîner", "isCorrect": false },
+            { "label": "Goûter", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'almoço' é 'Déjeuner'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "Je voudrais ___ du poulet, s'il vous plaît.",
+          "options": ["commander", "manger", "boire", "avoir"],
+          "answer": "commander",
+          "feedback": {
+            "correct": "Perfeito! 'Je voudrais commander du poulet' significa 'Eu gostaria de pedir frango'.",
+            "wrong": "A resposta mais adequada é 'commander' (pedir)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "title": "Directions et Lieux",
+      "description": "Aprenda a pedir e dar direções em francês.",
+      "level": 3,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Onde fica a estação de trem?'",
+          "answer": ["où est la gare", "où se trouve la gare"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'Où est la gare?' ou 'Où se trouve la gare?'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Como se diz 'vire à esquerda' em francês?",
+          "options": [
+            { "label": "Tournez à gauche", "isCorrect": true },
+            { "label": "Tournez à droite", "isCorrect": false },
+            { "label": "Allez tout droit", "isCorrect": false },
+            { "label": "Revenez en arrière", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A expressão correta é 'Tournez à gauche'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete as direções",
+          "sentence": "La pharmacie est ___ du musée.",
+          "options": ["près", "loin", "en face", "derrière"],
+          "answer": "près",
+          "feedback": {
+            "correct": "Muito bem! 'La pharmacie est près du musée' significa 'A farmácia está perto do museu'.",
+            "wrong": "A resposta correta é 'près' (perto)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz 'siga em frente' em francês?",
+          "options": [
+            { "label": "Allez tout droit", "isCorrect": true },
+            { "label": "Tournez à gauche", "isCorrect": false },
+            { "label": "Tournez à droite", "isCorrect": false },
+            { "label": "Revenez en arrière", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A expressão correta é 'Allez tout droit'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "L'hôpital est ___ du parc.",
+          "options": ["près", "loin", "à côté", "en face"],
+          "answer": "en face",
+          "feedback": {
+            "correct": "Perfeito! 'L'hôpital est en face du parc' significa 'O hospital está em frente ao parque'.",
+            "wrong": "A resposta mais adequada é 'en face' (em frente)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "title": "Famille et Relations",
+      "description": "Aprenda a falar sobre família e relacionamentos em francês.",
+      "level": 4,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Meu pai tem três irmãos'",
+          "answer": ["mon père a trois frères"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Mon père a trois frères'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Como se diz 'irmã' em francês?",
+          "options": [
+            { "label": "Sœur", "isCorrect": true },
+            { "label": "Frère", "isCorrect": false },
+            { "label": "Cousin", "isCorrect": false },
+            { "label": "Tante", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'irmã' é 'Sœur'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase sobre família",
+          "sentence": "Ma ___ est la mère de ma mère.",
+          "options": ["grand-mère", "tante", "cousine", "belle-mère"],
+          "answer": "grand-mère",
+          "feedback": {
+            "correct": "Correto! 'Ma grand-mère est la mère de ma mère' significa 'Minha avó é a mãe da minha mãe'.",
+            "wrong": "A resposta correta é 'grand-mère' (avó)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz 'pai' em francês?",
+          "options": [
+            { "label": "Père", "isCorrect": true },
+            { "label": "Frère", "isCorrect": false },
+            { "label": "Fils", "isCorrect": false },
+            { "label": "Oncle", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'pai' é 'Père'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase sobre família",
+          "sentence": "Mon ___ est le fils de mon frère.",
+          "options": ["neveu", "cousin", "oncle", "grand-père"],
+          "answer": "neveu",
+          "feedback": {
+            "correct": "Perfeito! 'Mon neveu est le fils de mon frère' significa 'Meu sobrinho é o filho do meu irmão'.",
+            "wrong": "A resposta correta é 'neveu' (sobrinho)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "title": "Verbes Essentiels",
+      "description": "Aprenda os verbos essenciais em francês e suas conjugações.",
+      "level": 2,
+      "language": "fr-FR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Qual é a forma correta do verbo 'être' (ser/estar) na primeira pessoa do singular?",
+          "options": [
+            { "label": "Je suis", "isCorrect": true },
+            { "label": "Tu es", "isCorrect": false },
+            { "label": "Il est", "isCorrect": false },
+            { "label": "Nous sommes", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Je suis' é a forma correta de 'être' para 'eu'.",
+            "wrong": "A forma correta para 'eu sou/estou' é 'Je suis'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Eles falam francês'",
+          "answer": ["ils parlent français"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Ils parlent français'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo 'avoir' (ter) conjugado",
+          "sentence": "J'___ un chat noir.",
+          "options": ["ai", "as", "a", "avons"],
+          "answer": "ai",
+          "feedback": {
+            "correct": "Perfeito! 'J'ai un chat noir' significa 'Eu tenho um gato preto'.",
+            "wrong": "A forma correta do verbo 'avoir' na primeira pessoa é 'ai'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a forma correta do verbo 'aller' (ir) na segunda pessoa do singular?",
+          "options": [
+            { "label": "Tu vas", "isCorrect": true },
+            { "label": "Je vais", "isCorrect": false },
+            { "label": "Il va", "isCorrect": false },
+            { "label": "Nous allons", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Tu vas' é a forma correta de 'aller' para 'tu'.",
+            "wrong": "A forma correta para 'tu vais' é 'Tu vas'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo 'faire' (fazer) conjugado",
+          "sentence": "Tu ___ du sport tous les jours.",
+          "options": ["fais", "fait", "faisons", "font"],
+          "answer": "fais",
+          "feedback": {
+            "correct": "Perfeito! 'Tu fais du sport tous les jours' significa 'Você faz esporte todos os dias'.",
+            "wrong": "A forma correta do verbo 'faire' na segunda pessoa é 'fais'."
+          }
+        }
+      ]
+    }
+  ]
+} 

@@ -1,0 +1,1099 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Greetings and Introductions",
+      "description": "Aprenda a cumprimentar e se apresentar em inglês.",
+      "level": 1,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Olá, meu nome é Ana'",
+          "answer": ["hello my name is ana"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Hello, my name is Ana.'"
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Bom dia' em inglês?",
+          "options": [
+            { "label": "Good morning", "isCorrect": true },
+            { "label": "Good night", "isCorrect": false },
+            { "label": "Good evening", "isCorrect": false },
+            { "label": "Goodbye", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Good morning'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "Nice to ___ you.",
+          "options": ["meet", "see", "talk", "have"],
+          "answer": "meet",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'meet'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se pergunta 'Como você está?' em inglês?",
+          "options": [
+            { "label": "How are you?", "isCorrect": true },
+            { "label": "Who are you?", "isCorrect": false },
+            { "label": "What are you?", "isCorrect": false },
+            { "label": "Where are you?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Exatamente!",
+            "wrong": "A pergunta correta é 'How are you?'"
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a resposta para 'How are you?'",
+          "sentence": "I'm ___, thank you.",
+          "options": ["fine", "happy", "sad", "name"],
+          "answer": "fine",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta mais comum é 'I'm fine, thank you.'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Basic Verbs and Actions",
+      "description": "Aprenda os verbos básicos e como usá-los.",
+      "level": 1,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Eu gosto de correr'",
+          "answer": ["i like to run"],
+          "feedback": {
+            "correct": "Muito bom!",
+            "wrong": "A resposta correta é 'I like to run'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual dessas opções significa 'comer'?",
+          "options": [
+            { "label": "Eat", "isCorrect": true },
+            { "label": "Run", "isCorrect": false },
+            { "label": "Sleep", "isCorrect": false },
+            { "label": "Read", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Eat'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo correto",
+          "sentence": "I ___ books every day.",
+          "options": ["read", "run", "eat", "sleep"],
+          "answer": "read",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'read'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é o verbo que significa 'dormir'?",
+          "options": [
+            { "label": "Sleep", "isCorrect": true },
+            { "label": "Run", "isCorrect": false },
+            { "label": "Eat", "isCorrect": false },
+            { "label": "Read", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Sleep'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com o verbo correto",
+          "sentence": "I ___ to read before bed.",
+          "options": ["like", "love", "hate", "want"],
+          "answer": "want",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'want'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Everyday Objects",
+      "description": "Aprenda os nomes dos objetos do cotidiano.",
+      "level": 1,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'I have a book'",
+          "answer": ["eu tenho um livro"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Eu tenho um livro'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual dessas palavras significa 'cadeira'?",
+          "options": [
+            { "label": "Chair", "isCorrect": true },
+            { "label": "Table", "isCorrect": false },
+            { "label": "Window", "isCorrect": false },
+            { "label": "Door", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Chair'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete com o objeto correto",
+          "sentence": "This is my ___. I write with it.",
+          "options": ["pen", "table", "chair", "book"],
+          "answer": "pen",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'pen'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é o objeto que significa 'computador'?",
+          "options": [
+            { "label": "Computer", "isCorrect": true },
+            { "label": "Chair", "isCorrect": false },
+            { "label": "Table", "isCorrect": false },
+            { "label": "Book", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Computer'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete com o objeto correto",
+          "sentence": "I have a ___ to write with.",
+          "options": ["pen", "table", "chair", "book"],
+          "answer": "pen",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'pen'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "title": "Polite Questions",
+      "description": "Aprenda a fazer perguntas educadas em inglês.",
+      "level": 2,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Você poderia me ajudar?'",
+          "answer": ["could you help me"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Could you help me?'"
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual frase é uma pergunta educada em inglês?",
+          "options": [
+            { "label": "Can you help me?", "isCorrect": true },
+            { "label": "Help me!", "isCorrect": false },
+            { "label": "You help now", "isCorrect": false },
+            { "label": "Give help", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! Perguntas educadas usam 'Can you' ou 'Could you'.",
+            "wrong": "A forma educada é 'Can you help me?'"
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a pergunta educada",
+          "sentence": "___ you tell me the time, please?",
+          "options": ["Could", "Do", "Are", "Would"],
+          "answer": "Could",
+          "feedback": {
+            "correct": "Perfeito! 'Could you tell me...' é uma forma educada.",
+            "wrong": "A forma mais educada é 'Could you'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual frase é uma pergunta educada para perguntar o nome?",
+          "options": [
+            { "label": "What is your name?", "isCorrect": true },
+            { "label": "Who are you?", "isCorrect": false },
+            { "label": "Where are you from?", "isCorrect": false },
+            { "label": "When are you going?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A pergunta correta é 'What is your name?'"
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a resposta para 'What is your name?'",
+          "sentence": "My name is ___, what's yours?",
+          "options": ["John", "Jane", "Doe", "Smith"],
+          "answer": "John",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta mais comum é 'My name is John, what's yours?'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "title": "Numbers and Time",
+      "description": "Aprenda os números e como falar as horas em inglês.",
+      "level": 2,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'doze' em inglês?",
+          "options": [
+            { "label": "Twelve", "isCorrect": true },
+            { "label": "Twenty", "isCorrect": false },
+            { "label": "Two", "isCorrect": false },
+            { "label": "Ten", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Isso mesmo!",
+            "wrong": "A resposta correta é 'Twelve'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'São três horas' (em ponto)",
+          "answer": ["it's three o'clock", "it is three o'clock"],
+          "feedback": {
+            "correct": "Muito bom!",
+            "wrong": "A forma correta é 'It's three o'clock'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com a hora correta",
+          "sentence": "It's ___ o'clock.",
+          "options": ["five", "go", "sleep", "sun"],
+          "answer": "five",
+          "feedback": {
+            "correct": "Perfeito! 'It's five o'clock' está correto.",
+            "wrong": "A hora correta aqui é 'five o'clock'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz 'meia-noite' em inglês?",
+          "options": [
+            { "label": "Midnight", "isCorrect": true },
+            { "label": "Morning", "isCorrect": false },
+            { "label": "Evening", "isCorrect": false },
+            { "label": "Afternoon", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Midnight'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com a hora correta",
+          "sentence": "I go to bed at ___ o'clock.",
+          "options": ["nine", "ten", "eleven", "twelve"],
+          "answer": "nine",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A hora correta é 'nine o'clock'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "title": "Daily Routines",
+      "description": "Descreva sua rotina diária em inglês.",
+      "level": 3,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Eu acordo às sete horas'",
+          "answer": ["i wake up at seven o'clock", "i wake up at 7 o'clock"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'I wake up at seven o'clock'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "I ___ breakfast at 8 AM.",
+          "options": ["have", "make", "eat", "do"],
+          "answer": "have",
+          "feedback": {
+            "correct": "Correto! 'Have breakfast' é a forma mais comum.",
+            "wrong": "A forma correta é 'have breakfast'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "Qual frase descreve uma rotina?",
+          "options": [
+            { "label": "I brush my teeth", "isCorrect": true },
+            { "label": "I am brushing my teeth", "isCorrect": false },
+            { "label": "I was brushing my teeth", "isCorrect": false },
+            { "label": "Brush my teeth", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A frase correta para rotina é 'I brush my teeth'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a melhor forma de descrever uma rotina?",
+          "options": [
+            { "label": "I brush my teeth", "isCorrect": true },
+            { "label": "I am brushing my teeth", "isCorrect": false },
+            { "label": "I was brushing my teeth", "isCorrect": false },
+            { "label": "Brush my teeth", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A melhor forma de descrever uma rotina é 'I brush my teeth'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "I ___ to bed at 10 PM.",
+          "options": ["go", "have", "make", "do"],
+          "answer": "have",
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A forma correta é 'I have to bed at 10 PM.'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "title": "Describing People",
+      "description": "Aprenda a descrever pessoas em inglês.",
+      "level": 4,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Ela tem cabelo longo e castanho'",
+          "answer": ["she has long brown hair"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'She has long brown hair'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual adjetivo significa 'alto'?",
+          "options": [
+            { "label": "Tall", "isCorrect": true },
+            { "label": "Short", "isCorrect": false },
+            { "label": "Fat", "isCorrect": false },
+            { "label": "Thin", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Tall'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "He is very ___. He plays basketball.",
+          "options": ["tall", "short", "smart", "old"],
+          "answer": "tall",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'tall'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é o adjetivo que significa 'inteligente'?",
+          "options": [
+            { "label": "Smart", "isCorrect": true },
+            { "label": "Dumb", "isCorrect": false },
+            { "label": "Old", "isCorrect": false },
+            { "label": "Young", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Smart'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "She is very ___. She is a doctor.",
+          "options": ["tall", "short", "smart", "old"],
+          "answer": "smart",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'smart'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "title": "Talking About the Past",
+      "description": "Aprenda a falar sobre ações passadas usando o passado simples.",
+      "level": 4,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Eu fui à escola ontem'",
+          "answer": ["i went to school yesterday"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'I went to school yesterday'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual é o passado do verbo 'go'?",
+          "options": [
+            { "label": "Went", "isCorrect": true },
+            { "label": "Goed", "isCorrect": false },
+            { "label": "Goes", "isCorrect": false },
+            { "label": "Gone", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "O passado de 'go' é 'went'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo no passado",
+          "sentence": "She ___ a movie last night.",
+          "options": ["watched", "watch", "watches", "watching"],
+          "answer": "watched",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'watched'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é o passado do verbo 'eat'?",
+          "options": [
+            { "label": "Ate", "isCorrect": true },
+            { "label": "Eaten", "isCorrect": false },
+            { "label": "Eat", "isCorrect": false },
+            { "label": "Eating", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "O passado de 'eat' é 'ate'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo no passado",
+          "sentence": "I ___ to read before bed.",
+          "options": ["like", "love", "hate", "want"],
+          "answer": "want",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'want'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-09",
+      "title": "Making Future Plans",
+      "description": "Aprenda a expressar planos futuros usando 'going to'.",
+      "level": 5,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Eu vou viajar amanhã'",
+          "answer": ["i am going to travel tomorrow", "i'm going to travel tomorrow"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A forma correta é 'I am going to travel tomorrow'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual frase indica um plano futuro?",
+          "options": [
+            { "label": "She is going to study tonight", "isCorrect": true },
+            { "label": "She studied last night", "isCorrect": false },
+            { "label": "She studies every day", "isCorrect": false },
+            { "label": "She study tomorrow", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'She is going to study tonight'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com 'going to'",
+          "sentence": "We are ___ have a meeting.",
+          "options": ["going to", "go to", "go", "goes to"],
+          "answer": "going to",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'going to'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual frase indica um plano futuro?",
+          "options": [
+            { "label": "She is going to study tonight", "isCorrect": true },
+            { "label": "She studied last night", "isCorrect": false },
+            { "label": "She studies every day", "isCorrect": false },
+            { "label": "She study tomorrow", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'She is going to study tonight'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com 'going to'",
+          "sentence": "We are ___ to have a meeting.",
+          "options": ["going to", "go to", "go", "goes to"],
+          "answer": "going to",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'going to'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "title": "Making Suggestions and Giving Advice",
+      "description": "Aprenda a sugerir e aconselhar em inglês usando 'should'.",
+      "level": 5,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Você deveria estudar mais'",
+          "answer": ["you should study more"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'You should study more'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual frase é um conselho?",
+          "options": [
+            { "label": "You should go to the doctor", "isCorrect": true },
+            { "label": "You go to the doctor", "isCorrect": false },
+            { "label": "You going to doctor", "isCorrect": false },
+            { "label": "You went to the doctor", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A forma de aconselhar é 'You should go to the doctor'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete com a palavra correta",
+          "sentence": "You ___ sleep early before the exam.",
+          "options": ["should", "must", "need", "might"],
+          "answer": "should",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A melhor palavra aqui é 'should'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a melhor forma de aconselhar alguém a se exercitar?",
+          "options": [
+            { "label": "You should exercise", "isCorrect": true },
+            { "label": "You must exercise", "isCorrect": false },
+            { "label": "You need to exercise", "isCorrect": false },
+            { "label": "You might exercise", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A melhor forma de aconselhar alguém a se exercitar é 'You should exercise'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "You ___ to bed at 10 PM.",
+          "options": ["should", "must", "need", "might"],
+          "answer": "should",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A melhor palavra aqui é 'should'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "title": "Weather and Seasons",
+      "description": "Aprenda a falar sobre o clima e as estações do ano.",
+      "level": 3,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Qual frase descreve o tempo quente?",
+          "options": [
+            { "label": "It's hot today", "isCorrect": true },
+            { "label": "It's cold today", "isCorrect": false },
+            { "label": "It's raining", "isCorrect": false },
+            { "label": "It's snowing", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "Para descrever tempo quente, dizemos 'It's hot today'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Está chovendo muito'",
+          "answer": ["it's raining a lot", "it is raining a lot", "it's raining heavily", "it is raining heavily"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'It's raining a lot' ou 'It's raining heavily'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase sobre estações",
+          "sentence": "I love ___ because of the colorful leaves.",
+          "options": ["autumn", "summer", "winter", "spring"],
+          "answer": "autumn",
+          "feedback": {
+            "correct": "Perfeito! O outono (autumn) é conhecido pelas folhas coloridas.",
+            "wrong": "A estação conhecida por folhas coloridas é o outono (autumn)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a estação do ano que tem mais chuva?",
+          "options": [
+            { "label": "Spring", "isCorrect": false },
+            { "label": "Summer", "isCorrect": false },
+            { "label": "Autumn", "isCorrect": false },
+            { "label": "Winter", "isCorrect": true }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A estação do ano que tem mais chuva é o inverno (winter)."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase sobre estações",
+          "sentence": "I love ___ because of the colorful leaves.",
+          "options": ["autumn", "summer", "winter", "spring"],
+          "answer": "autumn",
+          "feedback": {
+            "correct": "Perfeito! O outono (autumn) é conhecido pelas folhas coloridas.",
+            "wrong": "A estação conhecida por folhas coloridas é o outono (autumn)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "title": "Food and Restaurants",
+      "description": "Aprenda a falar sobre comidas e restaurantes.",
+      "level": 3,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Eu gostaria de fazer um pedido'",
+          "answer": ["i would like to order", "i'd like to order"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'I would like to order' ou 'I'd like to order'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual pergunta você faria para chamar o garçom?",
+          "options": [
+            { "label": "Excuse me, could I get the bill please?", "isCorrect": true },
+            { "label": "I want the bill now", "isCorrect": false },
+            { "label": "Give me bill", "isCorrect": false },
+            { "label": "Pay now", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito educado!",
+            "wrong": "A forma mais educada é 'Excuse me, could I get the bill please?'"
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete o pedido no restaurante",
+          "sentence": "I'll have the chicken with ___, please.",
+          "options": ["rice", "food", "eating", "menu"],
+          "answer": "rice",
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A opção mais adequada para acompanhar frango seria 'rice' (arroz)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é o prato mais popular em um restaurante?",
+          "options": [
+            { "label": "Chicken", "isCorrect": true },
+            { "label": "Beef", "isCorrect": false },
+            { "label": "Fish", "isCorrect": false },
+            { "label": "Pasta", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "O prato mais popular em um restaurante é o frango (chicken)."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete o pedido no restaurante",
+          "sentence": "I'll have the chicken with ___, please.",
+          "options": ["rice", "food", "eating", "menu"],
+          "answer": "rice",
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A opção mais adequada para acompanhar frango seria 'rice' (arroz)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "title": "Travel and Directions",
+      "description": "Aprenda a pedir e dar direções em inglês.",
+      "level": 4,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Como chego ao museu?'",
+          "answer": ["how do i get to the museum", "how can i get to the museum"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'How do I get to the museum?' ou 'How can I get to the museum?'"
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual expressão indica virar à direita?",
+          "options": [
+            { "label": "Turn right", "isCorrect": true },
+            { "label": "Turn left", "isCorrect": false },
+            { "label": "Go straight", "isCorrect": false },
+            { "label": "Go back", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "Para indicar 'virar à direita', usamos 'Turn right'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete as direções",
+          "sentence": "Walk ___ for two blocks, then turn left.",
+          "options": ["straight", "around", "over", "between"],
+          "answer": "straight",
+          "feedback": {
+            "correct": "Perfeito! 'Walk straight for two blocks' é a forma correta.",
+            "wrong": "A direção correta é 'straight' (siga em frente)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a melhor forma de pedir uma direção?",
+          "options": [
+            { "label": "How do I get to the museum?", "isCorrect": true },
+            { "label": "Where is the museum?", "isCorrect": false },
+            { "label": "Can you show me the way?", "isCorrect": false },
+            { "label": "I'm lost", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A melhor forma de pedir uma direção é 'How do I get to the museum?'"
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete as direções",
+          "sentence": "Walk ___ for two blocks, then turn left.",
+          "options": ["straight", "around", "over", "between"],
+          "answer": "straight",
+          "feedback": {
+            "correct": "Perfeito! 'Walk straight for two blocks' é a forma correta.",
+            "wrong": "A direção correta é 'straight' (siga em frente)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "title": "Health and Wellness",
+      "description": "Aprenda a falar sobre saúde e bem-estar em inglês.",
+      "level": 6,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Estou com dor de cabeça'",
+          "answer": ["i have a headache", "i've got a headache"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'I have a headache' ou 'I've got a headache'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "O que você diria ao médico sobre um problema de saúde?",
+          "options": [
+            { "label": "I've been feeling dizzy since yesterday", "isCorrect": true },
+            { "label": "I feeling bad", "isCorrect": false },
+            { "label": "Give me medicine", "isCorrect": false },
+            { "label": "Problem with health", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A forma correta de explicar um sintoma é 'I've been feeling dizzy since yesterday'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a recomendação médica",
+          "sentence": "You should ___ this medicine twice a day.",
+          "options": ["take", "drink", "eat", "swallow"],
+          "answer": "take",
+          "feedback": {
+            "correct": "Correto! 'Take medicine' é a expressão correta.",
+            "wrong": "Com medicamentos, usamos o verbo 'take' (take medicine)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a melhor forma de cuidar da saúde?",
+          "options": [
+            { "label": "Eat junk food", "isCorrect": false },
+            { "label": "Exercise regularly", "isCorrect": true },
+            { "label": "Smoke", "isCorrect": false },
+            { "label": "Drink alcohol", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A melhor forma de cuidar da saúde é fazer exercícios regularmente."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "I ___ to bed at 10 PM.",
+          "options": ["should", "must", "need", "might"],
+          "answer": "should",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A melhor palavra aqui é 'should'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "title": "Shopping and Money",
+      "description": "Aprenda a fazer compras e falar sobre dinheiro em inglês.",
+      "level": 2,
+      "language": "en-US",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Quanto custa esta camiseta?'",
+          "answer": ["how much is this t-shirt", "how much does this t-shirt cost"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'How much is this T-shirt?' ou 'How much does this T-shirt cost?'"
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual frase você usaria para pedir um desconto?",
+          "options": [
+            { "label": "Can you give me a discount?", "isCorrect": true },
+            { "label": "I want cheaper", "isCorrect": false },
+            { "label": "Make price lower", "isCorrect": false },
+            { "label": "This is expensive", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto e educado!",
+            "wrong": "A forma educada de pedir desconto é 'Can you give me a discount?'"
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase durante compras",
+          "sentence": "Do you accept ___ cards?",
+          "options": ["credit", "money", "paper", "shopping"],
+          "answer": "credit",
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A pergunta correta seria 'Do you accept credit cards?'"
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a melhor forma de pagar em um restaurante?",
+          "options": [
+            { "label": "Cash", "isCorrect": false },
+            { "label": "Credit card", "isCorrect": true },
+            { "label": "Debit card", "isCorrect": false },
+            { "label": "Check", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A melhor forma de pagar em um restaurante é com cartão de crédito."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "I ___ to bed at 10 PM.",
+          "options": ["should", "must", "need", "might"],
+          "answer": "should",
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A melhor palavra aqui é 'should'."
+          }
+        }
+      ]
+    }
+  ]
+}

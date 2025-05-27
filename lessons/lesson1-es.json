@@ -1,0 +1,149 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Saludos",
+      "description": "Aprenda a cumprimentar em espanhol.",
+      "level": 1,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Olá' em espanhol?",
+          "options": [
+            { "label": "Hola", "isCorrect": true },
+            { "label": "Adiós", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Sí", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem! 'Hola' é a forma certa de dizer 'Olá'.",
+            "wrong": "A resposta correta é 'Hola'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Bom dia'",
+          "answer": ["buenos dias", "buenos días"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'Buenos días'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+          "options": [
+            { "label": "Buenas noches", "isCorrect": true },
+            { "label": "Buenas tardes", "isCorrect": false },
+            { "label": "Buenos días", "isCorrect": false },
+            { "label": "Hola", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Buenas noches'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Traduza: 'Boa tarde'",
+          "answer": ["buenas tardes"],
+          "feedback": {
+            "correct": "Você acertou!",
+            "wrong": "A resposta certa é 'Buenas tardes'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Qual destas opções você usaria ao se despedir em espanhol?",
+          "options": [
+            { "label": "Adiós", "isCorrect": true },
+            { "label": "Hola", "isCorrect": false },
+            { "label": "Buenos días", "isCorrect": false },
+            { "label": "Gracias", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Certo! 'Adiós' é usado para se despedir.",
+            "wrong": "Na despedida usamos 'Adiós'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "sentence": "___, ¿cómo estás?",
+          "options": ["Hola", "Adiós", "Gracias", "Por favor"],
+          "answer": "Hola",
+          "feedback": {
+            "correct": "Perfeito! 'Hola, ¿cómo estás?' é uma saudação comum.",
+            "wrong": "A forma correta é 'Hola'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Presentaciones",
+      "description": "Aprenda a se apresentar em espanhol.",
+      "level": 2,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Meu nome é...' em espanhol?",
+          "options": [
+            { "label": "Me llamo", "isCorrect": true },
+            { "label": "Mucho gusto", "isCorrect": false },
+            { "label": "Adiós", "isCorrect": false },
+            { "label": "¿Cómo estás?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Me llamo' é usado para se apresentar.",
+            "wrong": "A forma certa de dizer 'Meu nome é' é 'Me llamo'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Prazer em conhecê-lo'",
+          "answer": ["mucho gusto", "encantado"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Mucho gusto'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de '¿Cómo estás?'",
+          "options": [
+            { "label": "Como você está?", "isCorrect": true },
+            { "label": "Como você se chama?", "isCorrect": false },
+            { "label": "De onde você é?", "isCorrect": false },
+            { "label": "O que você faz?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Como você está?'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "sentence": "Me ___ Juan.",
+          "options": ["llamo", "llama", "llamas", "llamamos"],
+          "answer": "llamo",
+          "feedback": {
+            "correct": "Ótimo! 'Me llamo' significa 'me chamo'.",
+            "wrong": "A forma correta é 'llamo' para 'yo'."
+          }
+        }
+      ]
+    }
+  ]
+}

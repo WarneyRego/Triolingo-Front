@@ -1,0 +1,773 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Tema Claro - Variáveis de Cor (melhoradas para um visual mais moderno) */
+  --primary-color: #4361ee;
+  --primary-hover: #3a56e4;
+  --secondary-color: #3bc0b4;
+  --secondary-hover: #2ea89e;
+  --background: #f0f5ff;
+  --card-bg: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --border-color: #e2e8f0;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  
+  /* Novas variáveis para tema claro */
+  --accent-1: #ff9f1c;
+  --accent-2: #e76f51;
+  --accent-3: #2a9d8f;
+  --neutral-soft: #f8fafc;
+  --card-shadow: rgba(149, 157, 165, 0.1);
+  --card-shadow-hover: rgba(100, 110, 255, 0.2);
+  
+  /* Variáveis para navbar */
+  --navbar-light-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
+  --navbar-light-border: rgba(226, 232, 240, 0.8);
+  --navbar-light-shadow: 0 4px 20px rgba(67, 97, 238, 0.1);
+}
+
+[data-theme='dark'] {
+  /* Tema Escuro - Variáveis de Cor (atualizado para mais escuro, similar ao dashboard) */
+  --primary-color: #6366f1;
+  --primary-hover: #4f46e5;
+  --secondary-color: #10b981;
+  --secondary-hover: #059669;
+  --background: #111827; /* Mais escuro, similar à imagem do dashboard */
+  --card-bg: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border-color: #334155;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  
+  /* Novas variáveis para tema escuro */
+  --accent-1: #7c3aed;
+  --accent-2: #db2777;
+  --accent-3: #06b6d4;
+  --neutral-soft: #1e293b;
+  --card-shadow: rgba(17, 24, 39, 0.7);
+  --card-shadow-hover: rgba(99, 102, 241, 0.25);
+  
+  /* Novas variáveis para o header do dashboard */
+  --header-bg: #4e46e5; /* Roxo similar ao Duolingo */
+  --header-text: #ffffff;
+  --header-highlight: #7c3aed;
+  
+  /* Variáveis para navbar */
+ 
+}
+
+/* Animações de Keyframes para Fundo */
+@keyframes gradientLight {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientDark {
+  0% {
+    background-position: 0% 0%;
+    background-size: 200% 200%;
+  }
+  25% {
+    background-size: 300% 300%;
+  }
+  50% {
+    background-position: 100% 100%;
+    background-size: 250% 250%;
+  }
+  75% {
+    background-size: 350% 350%;
+  }
+  100% {
+    background-position: 0% 0%;
+    background-size: 200% 200%;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes navGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+  }
+}
+
+@keyframes navShimmer {
+  0% {
+    background-position: -50px 0;
+  }
+  100% {
+    background-position: 50px 0;
+  }
+}
+
+/* Estilos do corpo */
+body {
+  min-height: 100vh;
+  color: var(--text-primary);
+  background: var(--background);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Classe para fundos animados */
+.animated-bg-light {
+  background: linear-gradient(-45deg, #e0f2fe, #dbeafe, #ede9fe, #fae8ff);
+  background-size: 400% 400%;
+  animation: gradientLight 15s ease infinite;
+}
+
+.animated-bg-dark {
+  background: linear-gradient(-45deg, #0f172a, #1e1e2f, #1e1b4b, #312e81);
+  background-size: 300% 300%;
+  animation: gradientDark 20s ease infinite;
+}
+
+/* Header do dashboard em tema escuro com cores roxas do Duolingo */
+.dashboard-header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Cards do dashboard em tema escuro */
+.dashboard-card {
+  background-color: #1f2937; /* Um pouco mais claro que o fundo */
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Classes de utilidade para aplicação de cores */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-hover);
+  transform: translateY(-2px);
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px var(--card-shadow-hover);
+  transform: translateY(-2px);
+}
+
+/* Classes para texto */
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+/* Classes específicas para tema claro */
+[data-theme='light'] .card {
+  box-shadow: 0 4px 15px rgba(67, 97, 238, 0.08);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+[data-theme='light'] .card:hover {
+  box-shadow: 0 8px 30px rgba(67, 97, 238, 0.15);
+  border: 1px solid rgba(226, 232, 240, 1);
+}
+
+[data-theme='light'] .btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 10px rgba(67, 97, 238, 0.3);
+  transition: all 0.3s ease;
+}
+
+[data-theme='light'] .btn-primary:hover {
+  background-color: var(--primary-hover);
+  box-shadow: 0 4px 15px rgba(67, 97, 238, 0.4);
+  transform: translateY(-2px);
+}
+
+[data-theme='light'] .btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  box-shadow: 0 2px 10px rgba(59, 192, 180, 0.3);
+  transition: all 0.3s ease;
+}
+
+[data-theme='light'] .btn-secondary:hover {
+  background-color: var(--secondary-hover);
+  box-shadow: 0 4px 15px rgba(59, 192, 180, 0.4);
+  transform: translateY(-2px);
+}
+
+[data-theme='light'] .focus-effect:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--primary-color);
+  outline: none;
+}
+
+/* Tema escuro */
+[data-theme='dark'] .card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: #1f2937; /* Um pouco mais claro que o fundo */
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.25);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+@layer base {
+  /* Variáveis de tema do Tailwind (removidas para evitar conflitos) */
+  :root {
+    --radius: 0.75rem;
+  }
+  
+  * {
+    @apply border-border-color;
+  }
+  
+  body {
+    /* Substituímos estas classes que estavam causando erro */
+    background-color: var(--background);
+    color: var(--text-primary);
+  }
+}
+
+/* Estilos para os botões no tema escuro */
+[data-theme='dark'] .btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .btn-primary:hover {
+  background-color: var(--primary-hover);
+  box-shadow: 0 0 20px rgba(79, 70, 229, 0.7);
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .btn-secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .btn-secondary:hover {
+  background-color: var(--secondary-hover);
+  box-shadow: 0 0 20px rgba(5, 150, 105, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Efeito de brilho em elementos selecionados no tema escuro */
+[data-theme='dark'] .focus-effect:focus {
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--primary-color);
+  outline: none;
+}
+
+/* Efeito de destaque para avisos e notificações */
+.notification {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme='light'] .notification {
+  background: linear-gradient(135deg, rgba(67, 97, 238, 0.05), rgba(59, 192, 180, 0.05));
+  border-left: 3px solid var(--primary-color);
+}
+
+[data-theme='dark'] .notification {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(16, 185, 129, 0.1));
+  border-left: 3px solid var(--primary-color);
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+[data-theme='light'] ::-webkit-scrollbar-track {
+  background: var(--neutral-soft);
+}
+
+[data-theme='light'] ::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+[data-theme='light'] ::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+}
+
+/* Classes de utilidade para efeitos 3D e perspectiva */
+.perspective-600 {
+  perspective: 600px;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Efeito de vidro fosco para o tema claro */
+.glass-light {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(100, 100, 100, 0.1);
+}
+
+/* Efeito de vidro fosco para o tema escuro (mais sutil) */
+.glass-dark {
+  background: rgba(31, 41, 55, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Efeito de shimmer para destacar elementos */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(67, 97, 238, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+/* Shimmer para tema escuro */
+[data-theme='dark'] .shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(124, 58, 237, 0.15) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+/* Efeitos de hover para cards */
+.hover-float:hover {
+  animation: float 4s ease-in-out infinite;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px var(--primary-color);
+}
+
+/* Navbar estilizada para tema claro */
+.light-header {
+  background: var(--navbar-light-bg);
+  border-bottom: 1px solid var(--navbar-light-border);
+  box-shadow: var(--navbar-light-shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Navbar estilizada para tema escuro - dashboard header já existe */
+.dashboard-header {
+  background: var(--navbar-dark-bg);
+  border-bottom: 1px solid var(--navbar-dark-border);
+  box-shadow: var(--navbar-dark-shadow);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efeito de brilho na borda inferior da navbar */
+.dashboard-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.5) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/* Efeito de glass morphism aprimorado para a navbar de tema claro */
+.light-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(67, 97, 238, 0.05) 0%,
+    rgba(59, 192, 180, 0.05) 50%,
+    rgba(255, 159, 28, 0.05) 100%
+  );
+  z-index: -1;
+}
+
+/* Navegação aprimorada - brilho do link ativo */
+.nav-link-active {
+  position: relative;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+[data-theme='light'] .nav-link-active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-1));
+  border-radius: 2px;
+  animation: navShimmer 1.5s infinite linear;
+  background-size: 100px 100%;
+}
+
+[data-theme='dark'] .nav-link-active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-1), var(--primary-color));
+  border-radius: 2px;
+  animation: navShimmer 1.5s infinite linear;
+  background-size: 100px 100%;
+}
+
+/* Efeito de sublinhado interativo para links da navbar */
+.navbar-link-hover-effect {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-link-hover-effect::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--primary-color);
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-link-hover-effect:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+/* Botão de tema - efeito de rotação */
+[data-theme='light'] .theme-switch-btn:hover {
+  transform: rotate(-12deg) scale(1.05);
+  box-shadow: 0 0 10px rgba(67, 97, 238, 0.3);
+}
+
+[data-theme='dark'] .theme-switch-btn:hover {
+  transform: rotate(12deg) scale(1.05);
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.4);
+}
+
+/* Efeito de glowing pulsante para links do menu ativo */
+.navbar-glow-effect {
+  position: relative;
+}
+
+[data-theme='light'] .navbar-glow-effect::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  background: radial-gradient(circle, rgba(67, 97, 238, 0.3) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+[data-theme='light'] .navbar-glow-effect:hover::before {
+  opacity: 1;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+[data-theme='dark'] .navbar-glow-effect::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.3) 0%, transparent 70%);
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+[data-theme='dark'] .navbar-glow-effect:hover::before {
+  opacity: 1;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* Badge de notificação para navbar */
+.navbar-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(25%, -25%);
+  background-color: var(--error);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: bold;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+[data-theme='dark'] .navbar-badge {
+  border-color: var(--header-bg);
+}
+
+/* Efeito de foco para botões da navbar */
+.navbar-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+/* Efeito para logo na navbar */
+.navbar-logo-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar-logo-glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at center, var(--primary-color) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-logo-container:hover .navbar-logo-glow {
+  opacity: 0.3;
+}
+
+/* Gradientes de destaque aprimorados para elementos da navbar */
+[data-theme='light'] .navbar-highlight-gradient {
+  background: linear-gradient(120deg, var(--primary-color), var(--accent-3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+[data-theme='dark'] .navbar-highlight-gradient {
+  background: linear-gradient(120deg, var(--primary-color), var(--accent-1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Efeito de rotação do ícone de tema */
+.theme-icon-rotate {
+  transition: transform 0.5s ease;
+}
+
+[data-theme='light'] .theme-icon-rotate:hover {
+  transform: rotate(-25deg);
+}
+
+[data-theme='dark'] .theme-icon-rotate:hover {
+  transform: rotate(25deg);
+}
+
+/* Tema claro específico */
+[data-theme='light'] body {
+  color: var(--text-primary);
+}
+
+[data-theme='light'] input, 
+[data-theme='light'] textarea, 
+[data-theme='light'] select {
+  color: var(--text-primary);
+  background-color: var(--card-bg);
+}
+
+[data-theme='light'] .h1, 
+[data-theme='light'] .h2, 
+[data-theme='light'] .h3, 
+[data-theme='light'] h1, 
+[data-theme='light'] h2, 
+[data-theme='light'] h3 {
+  color: var(--text-primary);
+}
+
+/* Tema escuro específico */
+[data-theme='dark'] body {
+  color: var(--text-primary);
+}
+
+[data-theme='dark'] input, 
+[data-theme='dark'] textarea, 
+[data-theme='dark'] select {
+  color: var(--text-primary);
+  background-color: var(--card-bg);
+}
+
+[data-theme='dark'] .h1, 
+[data-theme='dark'] .h2, 
+[data-theme='dark'] .h3, 
+[data-theme='dark'] h1, 
+[data-theme='dark'] h2, 
+[data-theme='dark'] h3,
+[data-theme='dark'] p,
+[data-theme='dark'] span,
+[data-theme='dark'] div {
+  color: var(--text-primary);
+}
+
+[data-theme='dark'] .text-gray-800 {
+  color: var(--text-primary) !important;
+}
+
+/* Cores específicas para inputs no tema escuro */
+[data-theme='dark'] input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Correções específicas para os cartões de lições no tema escuro */
+[data-theme='dark'] .text-gray-800,
+[data-theme='dark'] h3.text-xl.font-semibold,
+[data-theme='dark'] .text-lg,
+[data-theme='dark'] .text-sm,
+[data-theme='dark'] .font-medium {
+  color: var(--text-primary) !important;
+}
+
+/* Correção para textos nos cards das lições */
+[data-theme='dark'] .card-bg h3,
+[data-theme='dark'] .card-bg p,
+[data-theme='dark'] .card-bg div,
+[data-theme='dark'] .bg-card-bg h3,
+[data-theme='dark'] .bg-card-bg p,
+[data-theme='dark'] .bg-card-bg div,
+[data-theme='dark'] .shadow-md h3,
+[data-theme='dark'] .shadow-md p,
+[data-theme='dark'] .shadow-md div {
+  color: var(--text-primary) !important;
+}
+
+/* Correção para telas de lições */
+[data-theme='dark'] .min-h-screen .container h3,
+[data-theme='dark'] .min-h-screen .container p,
+[data-theme='dark'] .min-h-screen .container div:not(.bg-green-900):not(.bg-red-900):not(.bg-blue-900) {
+  color: var(--text-primary) !important;
+}

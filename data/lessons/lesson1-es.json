@@ -1,0 +1,253 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Saludos",
+      "description": "Aprenda a cumprimentar em espanhol.",
+      "level": 1,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Olá' em espanhol?",
+          "options": [
+            { "label": "Hola", "isCorrect": true },
+            { "label": "Adiós", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Sí", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem! 'Hola' é a forma certa de dizer 'Olá'.",
+            "wrong": "A resposta correta é 'Hola'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Bom dia'",
+          "answer": ["buenos días"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'Buenos días'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com a saudação correta",
+          "sentence": "___ María, ¿cómo estás hoy?",
+          "options": ["Hola", "Adiós", "Gracias", "Perdón"],
+          "answer": "Hola",
+          "feedback": {
+            "correct": "Muito bem! 'Hola' é usado para cumprimentar alguém.",
+            "wrong": "A saudação correta para iniciar uma conversa é 'Hola'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+          "options": [
+            { "label": "Buenas noches", "isCorrect": true },
+            { "label": "Buenas tardes", "isCorrect": false },
+            { "label": "Buenos días", "isCorrect": false },
+            { "label": "Hola", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Buenas noches'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Boa tarde'",
+          "answer": ["buenas tardes"],
+          "feedback": {
+            "correct": "Você acertou!",
+            "wrong": "A resposta certa é 'Buenas tardes'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de despedida",
+          "sentence": "___, ¡hasta mañana!",
+          "options": ["Adiós", "Hola", "Gracias", "Perdón"],
+          "answer": "Adiós",
+          "feedback": {
+            "correct": "Correto! 'Adiós' é usado para se despedir.",
+            "wrong": "Para se despedir, usamos 'Adiós'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Presentaciones",
+      "description": "Aprenda a se apresentar em espanhol.",
+      "level": 2,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Meu nome é...' em espanhol?",
+          "options": [
+            { "label": "Me llamo", "isCorrect": true },
+            { "label": "Mucho gusto", "isCorrect": false },
+            { "label": "Adiós", "isCorrect": false },
+            { "label": "¿Cómo estás?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Me llamo' é usado para se apresentar.",
+            "wrong": "A forma certa de dizer 'Meu nome é' é 'Me llamo'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Prazer em conhecê-lo'",
+          "answer": ["mucho gusto", "encantado", "encantada"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "Você pode dizer 'Mucho gusto', 'Encantado' (homem) ou 'Encantada' (mulher)."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de apresentação",
+          "sentence": "Hola, ___ llamo Carlos.",
+          "options": ["me", "te", "se", "nos"],
+          "answer": "me",
+          "feedback": {
+            "correct": "Perfeito! 'Me llamo Carlos' é a forma correta de se apresentar.",
+            "wrong": "Para falar de si mesmo, use 'me'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de '¿Cómo estás?'",
+          "options": [
+            { "label": "Como você está?", "isCorrect": true },
+            { "label": "Quem é você?", "isCorrect": false },
+            { "label": "Onde você está?", "isCorrect": false },
+            { "label": "O que você faz?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Como você está?'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Eu sou estudante'",
+          "answer": ["soy estudiante"],
+          "feedback": {
+            "correct": "Ótimo!",
+            "wrong": "A resposta correta é 'Soy estudiante'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "question": "Complete a resposta para '¿Cómo estás?'",
+          "sentence": "Estoy ___, gracias.",
+          "options": ["bien", "nombre", "estudiante", "feliz"],
+          "answer": "bien",
+          "feedback": {
+            "correct": "Muito bem! 'Estoy bien, gracias' é uma resposta comum.",
+            "wrong": "A resposta comum é 'Estoy bien, gracias'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Expresiones Básicas",
+      "description": "Aprenda expressões úteis do dia a dia em espanhol.",
+      "level": 3,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Por favor'",
+          "answer": ["por favor"],
+          "feedback": {
+            "correct": "Certo!",
+            "wrong": "A resposta correta é 'Por favor'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Obrigado'?",
+          "options": [
+            { "label": "Gracias", "isCorrect": true },
+            { "label": "Perdón", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Disculpe", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'Gracias'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de agradecimento",
+          "sentence": "___ por tu ayuda!",
+          "options": ["Gracias", "Perdón", "Disculpe", "Por favor"],
+          "answer": "Gracias",
+          "feedback": {
+            "correct": "Perfeito! 'Gracias por tu ayuda' é a forma correta de agradecer.",
+            "wrong": "Para agradecer usamos 'Gracias'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Traduza: 'Desculpe'",
+          "answer": ["perdón", "lo siento"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "Você pode dizer 'Perdón' ou 'Lo siento'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Qual expressão você usaria para chamar a atenção educadamente?",
+          "options": [
+            { "label": "Disculpe", "isCorrect": true },
+            { "label": "Perdón", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Hola", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito educado!",
+            "wrong": "A resposta certa é 'Disculpe'."
+          }
+        },
+        {
+          "id": "ex-006",
+          "type": "fill-the-blank",
+          "question": "Complete a resposta para um agradecimento",
+          "sentence": "De ___.",
+          "options": ["nada", "perdón", "por favor", "gracias"],
+          "answer": "nada",
+          "feedback": {
+            "correct": "Muito bem! A expressão completa é 'De nada'.",
+            "wrong": "A resposta correta para 'Gracias' é 'De nada'."
+          }
+        }
+      ]
+    }
+  ]
+} 

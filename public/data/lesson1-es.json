@@ -1,0 +1,582 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Saludos",
+      "description": "Aprenda a cumprimentar em espanhol.",
+      "level": 1,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Olá' em espanhol?",
+          "options": [
+            { "label": "Hola", "isCorrect": true },
+            { "label": "Adiós", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Sí", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem! 'Hola' é a forma certa de dizer 'Olá'.",
+            "wrong": "A resposta correta é 'Hola'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Bom dia'",
+          "answer": ["buenos días"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'Buenos días'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase com a saudação correta",
+          "sentence": "___ María, ¿cómo estás hoy?",
+          "options": ["Hola", "Adiós", "Gracias", "Perdón"],
+          "answer": "Hola",
+          "feedback": {
+            "correct": "Muito bem! 'Hola' é usado para cumprimentar alguém.",
+            "wrong": "A saudação correta para iniciar uma conversa é 'Hola'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+          "options": [
+            { "label": "Buenas noches", "isCorrect": true },
+            { "label": "Buenas tardes", "isCorrect": false },
+            { "label": "Buenos días", "isCorrect": false },
+            { "label": "Hola", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Buenas noches'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Boa tarde'",
+          "answer": ["buenas tardes"],
+          "feedback": {
+            "correct": "Você acertou!",
+            "wrong": "A resposta certa é 'Buenas tardes'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Presentaciones",
+      "description": "Aprenda a se apresentar em espanhol.",
+      "level": 2,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz 'Meu nome é...' em espanhol?",
+          "options": [
+            { "label": "Me llamo", "isCorrect": true },
+            { "label": "Mucho gusto", "isCorrect": false },
+            { "label": "Adiós", "isCorrect": false },
+            { "label": "¿Cómo estás?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Me llamo' é usado para se apresentar.",
+            "wrong": "A forma certa de dizer 'Meu nome é' é 'Me llamo'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Prazer em conhecê-lo'",
+          "answer": ["mucho gusto", "encantado", "encantada"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "Você pode dizer 'Mucho gusto', 'Encantado' (homem) ou 'Encantada' (mulher)."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de apresentação",
+          "sentence": "Hola, ___ llamo Carlos.",
+          "options": ["me", "te", "se", "nos"],
+          "answer": "me",
+          "feedback": {
+            "correct": "Perfeito! 'Me llamo Carlos' é a forma correta de se apresentar.",
+            "wrong": "Para falar de si mesmo, use 'me'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de '¿Cómo estás?'",
+          "options": [
+            { "label": "Como você está?", "isCorrect": true },
+            { "label": "Quem é você?", "isCorrect": false },
+            { "label": "Onde você está?", "isCorrect": false },
+            { "label": "O que você faz?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A tradução correta é 'Como você está?'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "translate",
+          "question": "Traduza: 'Eu sou estudante'",
+          "answer": ["soy estudiante"],
+          "feedback": {
+            "correct": "Ótimo!",
+            "wrong": "A resposta correta é 'Soy estudiante'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": "Expresiones Básicas",
+      "description": "Aprenda expressões úteis do dia a dia em espanhol.",
+      "level": 3,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Por favor'",
+          "answer": ["por favor"],
+          "feedback": {
+            "correct": "Certo!",
+            "wrong": "A resposta correta é 'Por favor'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual é a tradução de 'Obrigado'?",
+          "options": [
+            { "label": "Gracias", "isCorrect": true },
+            { "label": "Perdón", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Disculpe", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A tradução correta é 'Gracias'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase de agradecimento",
+          "sentence": "___ por tu ayuda!",
+          "options": ["Gracias", "Perdón", "Disculpe", "Por favor"],
+          "answer": "Gracias",
+          "feedback": {
+            "correct": "Perfeito! 'Gracias por tu ayuda' é a forma correta de agradecer.",
+            "wrong": "Para agradecer usamos 'Gracias'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Traduza: 'Desculpe'",
+          "answer": ["perdón", "lo siento"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "Você pode dizer 'Perdón' ou 'Lo siento'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Qual expressão você usaria para chamar a atenção educadamente?",
+          "options": [
+            { "label": "Disculpe", "isCorrect": true },
+            { "label": "Perdón", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Hola", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Muito educado!",
+            "wrong": "A resposta certa é 'Disculpe'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "title": "Números y Horas",
+      "description": "Aprenda os números e as horas em espanhol.",
+      "level": 2,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Como se diz o número '5' em espanhol?",
+          "options": [
+            { "label": "Cinco", "isCorrect": true },
+            { "label": "Cuatro", "isCorrect": false },
+            { "label": "Seis", "isCorrect": false },
+            { "label": "Siete", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Cinco'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'São duas horas da tarde'",
+          "answer": ["son las dos de la tarde"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Son las dos de la tarde'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "Son las ___ de la noche.",
+          "options": ["diez", "cinco", "doce", "tres"],
+          "answer": "diez",
+          "feedback": {
+            "correct": "Perfeito! 'Son las diez de la noche' significa 'São dez horas da noite'.",
+            "wrong": "A resposta correta é 'diez' (dez)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz '15' em espanhol?",
+          "options": [
+            { "label": "Quince", "isCorrect": true },
+            { "label": "Catorce", "isCorrect": false },
+            { "label": "Trece", "isCorrect": false },
+            { "label": "Dieciséis", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A resposta correta é 'Quince'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete com o número correto",
+          "sentence": "Tengo ___ años.",
+          "options": ["diez", "veinte", "treinta", "cuarenta"],
+          "answer": "veinte",
+          "feedback": {
+            "correct": "Muito bem! 'Tengo veinte años' significa 'Eu tenho vinte anos'.",
+            "wrong": "A resposta mais adequada é 'veinte' (vinte)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "title": "Comidas y Restaurantes",
+      "description": "Aprenda a falar sobre comidas e a pedir em restaurantes.",
+      "level": 3,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'A conta, por favor'",
+          "answer": ["la cuenta por favor"],
+          "feedback": {
+            "correct": "Perfeito!",
+            "wrong": "A resposta correta é 'La cuenta, por favor'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Qual é a palavra em espanhol para 'almoço'?",
+          "options": [
+            { "label": "Almuerzo", "isCorrect": true },
+            { "label": "Cena", "isCorrect": false },
+            { "label": "Desayuno", "isCorrect": false },
+            { "label": "Comida", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'almoço' é 'Almuerzo'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete o pedido no restaurante",
+          "sentence": "Quiero un ___ de agua, por favor.",
+          "options": ["vaso", "plato", "tenedor", "menú"],
+          "answer": "vaso",
+          "feedback": {
+            "correct": "Muito bem! 'Quiero un vaso de agua' significa 'Quero um copo de água'.",
+            "wrong": "A resposta correta é 'vaso' (copo)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz 'jantar' em espanhol?",
+          "options": [
+            { "label": "Cena", "isCorrect": true },
+            { "label": "Almuerzo", "isCorrect": false },
+            { "label": "Desayuno", "isCorrect": false },
+            { "label": "Comida", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'jantar' é 'Cena'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "Me gustaría ___ un café, por favor.",
+          "options": ["pedir", "beber", "comer", "tomar"],
+          "answer": "pedir",
+          "feedback": {
+            "correct": "Perfeito! 'Me gustaría pedir un café' significa 'Eu gostaria de pedir um café'.",
+            "wrong": "A resposta mais adequada é 'pedir'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "title": "Direcciones y Lugares",
+      "description": "Aprenda a pedir e dar direções em espanhol.",
+      "level": 3,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Onde fica o museu?'",
+          "answer": ["¿dónde está el museo?", "donde esta el museo"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é '¿Dónde está el museo?'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Como você diria 'vire à direita' em espanhol?",
+          "options": [
+            { "label": "Gire a la derecha", "isCorrect": true },
+            { "label": "Gire a la izquierda", "isCorrect": false },
+            { "label": "Sigue recto", "isCorrect": false },
+            { "label": "Vuelva atrás", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A expressão correta é 'Gire a la derecha'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a direção",
+          "sentence": "El supermercado está ___ de la farmacia.",
+          "options": ["cerca", "lejos", "dentro", "fuera"],
+          "answer": "cerca",
+          "feedback": {
+            "correct": "Perfeito! 'El supermercado está cerca de la farmacia' significa 'O supermercado está perto da farmácia'.",
+            "wrong": "A resposta correta é 'cerca' (perto)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como você diria 'siga em frente' em espanhol?",
+          "options": [
+            { "label": "Siga recto", "isCorrect": true },
+            { "label": "Gire a la derecha", "isCorrect": false },
+            { "label": "Gire a la izquierda", "isCorrect": false },
+            { "label": "Vuelva atrás", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A expressão correta é 'Siga recto'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase",
+          "sentence": "El hospital está ___ la esquina.",
+          "options": ["en", "a", "de", "por"],
+          "answer": "en",
+          "feedback": {
+            "correct": "Perfeito! 'El hospital está en la esquina' significa 'O hospital está na esquina'.",
+            "wrong": "A resposta mais adequada é 'en'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "title": "Familia y Relaciones",
+      "description": "Aprenda a falar sobre família e relacionamentos em espanhol.",
+      "level": 4,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "translate",
+          "question": "Traduza: 'Minha mãe tem 50 anos'",
+          "answer": ["mi madre tiene 50 años", "mi mamá tiene 50 años"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Mi madre tiene 50 años' ou 'Mi mamá tiene 50 años'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "multiple-choice",
+          "question": "Como se diz 'irmão' em espanhol?",
+          "options": [
+            { "label": "Hermano", "isCorrect": true },
+            { "label": "Primo", "isCorrect": false },
+            { "label": "Tío", "isCorrect": false },
+            { "label": "Abuelo", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'irmão' é 'Hermano'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete a frase sobre família",
+          "sentence": "Mi ___ es la madre de mi madre.",
+          "options": ["abuela", "hermana", "prima", "tía"],
+          "answer": "abuela",
+          "feedback": {
+            "correct": "Muito bem! 'Mi abuela es la madre de mi madre' significa 'Minha avó é a mãe da minha mãe'.",
+            "wrong": "A resposta correta é 'abuela' (avó)."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Como se diz 'pai' em espanhol?",
+          "options": [
+            { "label": "Padre", "isCorrect": true },
+            { "label": "Hermano", "isCorrect": false },
+            { "label": "Tío", "isCorrect": false },
+            { "label": "Abuelo", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto!",
+            "wrong": "A palavra para 'pai' é 'Padre'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete a frase sobre família",
+          "sentence": "Mi ___ es el hijo de mi hermano.",
+          "options": ["sobrino", "primo", "nieto", "tío"],
+          "answer": "sobrino",
+          "feedback": {
+            "correct": "Perfeito! 'Mi sobrino es el hijo de mi hermano' significa 'Meu sobrinho é o filho do meu irmão'.",
+            "wrong": "A resposta correta é 'sobrino' (sobrinho)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "title": "Verbos Básicos",
+      "description": "Aprenda os verbos básicos em espanhol e como conjugá-los.",
+      "level": 2,
+      "language": "es-ES",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "Qual é a forma correta do verbo 'comer' na primeira pessoa do singular?",
+          "options": [
+            { "label": "Como", "isCorrect": true },
+            { "label": "Comes", "isCorrect": false },
+            { "label": "Comemos", "isCorrect": false },
+            { "label": "Comen", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Como' é a forma correta de 'comer' para eu.",
+            "wrong": "A forma correta para 'eu como' é 'Como'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Traduza: 'Eles falam espanhol'",
+          "answer": ["ellos hablan español", "hablan español"],
+          "feedback": {
+            "correct": "Muito bem!",
+            "wrong": "A resposta correta é 'Ellos hablan español' ou simplesmente 'Hablan español'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo correto conjugado",
+          "sentence": "Yo ___ (vivir) en Brasil.",
+          "options": ["vivo", "vives", "vivimos", "viven"],
+          "answer": "vivo",
+          "feedback": {
+            "correct": "Perfeito! 'Yo vivo en Brasil' é a conjugação correta do verbo 'vivir' na primeira pessoa.",
+            "wrong": "A forma correta do verbo 'vivir' na primeira pessoa é 'vivo'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "multiple-choice",
+          "question": "Qual é a forma correta do verbo 'ser' na terceira pessoa do singular?",
+          "options": [
+            { "label": "Es", "isCorrect": true },
+            { "label": "Soy", "isCorrect": false },
+            { "label": "Somos", "isCorrect": false },
+            { "label": "Eres", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correto! 'Es' é a forma correta de 'ser' para ele/ela.",
+            "wrong": "A forma correta para 'ele/ela é' é 'Es'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "fill-the-blank",
+          "question": "Complete com o verbo correto conjugado",
+          "sentence": "Tú ___ (hablar) español muy bien.",
+          "options": ["hablas", "hablo", "habla", "hablamos"],
+          "answer": "hablas",
+          "feedback": {
+            "correct": "Perfeito! 'Tú hablas español muy bien' é a conjugação correta do verbo 'hablar' na segunda pessoa.",
+            "wrong": "A forma correta do verbo 'hablar' na segunda pessoa é 'hablas'."
+          }
+        }
+      ]
+    }
+  ]
+} 

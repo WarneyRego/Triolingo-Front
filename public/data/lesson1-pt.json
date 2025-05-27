@@ -1,0 +1,127 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "Saudações",
+      "description": "Aprenda as saudações básicas em português.",
+      "level": 1,
+      "language": "pt-BR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "How do you say 'Hello' in Portuguese?",
+          "options": [
+            { "label": "Olá", "isCorrect": true },
+            { "label": "Tchau", "isCorrect": false },
+            { "label": "Por favor", "isCorrect": false },
+            { "label": "Sim", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Very good! 'Olá' is the correct way to say 'Hello'.",
+            "wrong": "The correct answer is 'Olá'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Translate: 'Good morning'",
+          "answer": ["bom dia"],
+          "feedback": {
+            "correct": "Perfect!",
+            "wrong": "The correct answer is 'Bom dia'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "Which of these expressions means 'Good night' (when saying goodbye)?",
+          "options": [
+            { "label": "Boa noite", "isCorrect": true },
+            { "label": "Boa tarde", "isCorrect": false },
+            { "label": "Bom dia", "isCorrect": false },
+            { "label": "Olá", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Well done!",
+            "wrong": "The correct answer is 'Boa noite'."
+          }
+        },
+        {
+          "id": "ex-004",
+          "type": "translate",
+          "question": "Translate: 'Good afternoon'",
+          "answer": ["boa tarde"],
+          "feedback": {
+            "correct": "You got it right!",
+            "wrong": "The correct answer is 'Boa tarde'."
+          }
+        },
+        {
+          "id": "ex-005",
+          "type": "multiple-choice",
+          "question": "Which of these options would you use to say goodbye in Portuguese?",
+          "options": [
+            { "label": "Tchau", "isCorrect": true },
+            { "label": "Olá", "isCorrect": false },
+            { "label": "Bom dia", "isCorrect": false },
+            { "label": "Obrigado", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correct! 'Tchau' is used to say goodbye.",
+            "wrong": "When saying goodbye, we use 'Tchau'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": "Apresentações",
+      "description": "Aprenda a se apresentar em português.",
+      "level": 2,
+      "language": "pt-BR",
+      "exercises": [
+        {
+          "id": "ex-001",
+          "type": "multiple-choice",
+          "question": "How do you say 'My name is...' in Portuguese?",
+          "options": [
+            { "label": "Meu nome é", "isCorrect": true },
+            { "label": "Prazer em conhecê-lo", "isCorrect": false },
+            { "label": "Tchau", "isCorrect": false },
+            { "label": "Como vai", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Correct! 'Meu nome é' is used to introduce yourself.",
+            "wrong": "The correct way to say 'My name is' is 'Meu nome é'."
+          }
+        },
+        {
+          "id": "ex-002",
+          "type": "translate",
+          "question": "Translate: 'Nice to meet you'",
+          "answer": ["prazer em conhecê-lo", "prazer em conhece-lo", "prazer em conhece lo"],
+          "feedback": {
+            "correct": "Very good!",
+            "wrong": "The correct answer is 'Prazer em conhecê-lo'."
+          }
+        },
+        {
+          "id": "ex-003",
+          "type": "multiple-choice",
+          "question": "What is the translation of 'Como você está?'",
+          "options": [
+            { "label": "How are you?", "isCorrect": true },
+            { "label": "Who are you?", "isCorrect": false },
+            { "label": "Where are you?", "isCorrect": false },
+            { "label": "What do you do?", "isCorrect": false }
+          ],
+          "feedback": {
+            "correct": "Perfect!",
+            "wrong": "The correct translation is 'How are you?'."
+          }
+        }
+      ]
+    }
+  ]
+} 

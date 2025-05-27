@@ -1,0 +1,255 @@
+{
+    "lessons": [
+      {
+        "id": "lesson-01",
+        "title": "Greetings",
+        "description": "Aprenda a cumprimentar em inglês.",
+        "level": 1,
+        "language": "en-US",
+        "exercises": [
+          {
+            "id": "ex-001",
+            "type": "multiple-choice",
+            "question": "Como se diz 'Olá' em inglês?",
+            "options": [
+              { "label": "Hello", "isCorrect": true },
+              { "label": "Goodbye", "isCorrect": false },
+              { "label": "Please", "isCorrect": false },
+              { "label": "Yes", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Muito bem! 'Hello' é a forma certa de dizer 'Olá'.",
+              "wrong": "A resposta correta é 'Hello'."
+            }
+          },
+          {
+            "id": "ex-002",
+            "type": "translate",
+            "question": "Traduza: 'Bom dia'",
+            "answer": ["good morning"],
+            "feedback": {
+              "correct": "Perfeito!",
+              "wrong": "A resposta correta é 'Good morning'."
+            }
+          },
+          {
+            "id": "ex-003",
+            "type": "multiple-choice",
+            "question": "Qual destas expressões significa 'Boa noite' (ao se despedir)?",
+            "options": [
+              { "label": "Good night", "isCorrect": true },
+              { "label": "Good afternoon", "isCorrect": false },
+              { "label": "Good morning", "isCorrect": false },
+              { "label": "Hi", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Muito bem!",
+              "wrong": "A resposta correta é 'Good night'."
+            }
+          },
+          {
+            "id": "ex-004",
+            "type": "translate",
+            "question": "Traduza: 'Boa tarde'",
+            "answer": ["good afternoon"],
+            "feedback": {
+              "correct": "Você acertou!",
+              "wrong": "A resposta certa é 'Good afternoon'."
+            }
+          },
+          {
+            "id": "ex-005",
+            "type": "multiple-choice",
+            "question": "Qual destas opções você usaria ao se despedir em inglês?",
+            "options": [
+              { "label": "Goodbye", "isCorrect": true },
+              { "label": "Hi", "isCorrect": false },
+              { "label": "Good morning", "isCorrect": false },
+              { "label": "Hello", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Certo! 'Goodbye' é usado para se despedir.",
+              "wrong": "Na despedida usamos 'Goodbye'."
+            }
+          },
+          {
+            "id": "ex-006",
+            "type": "fill-the-blank",
+            "sentence": "___, how are you?",
+            "options": ["Hello", "Goodbye", "Please", "Thank you"],
+            "answer": "Hello",
+            "feedback": {
+              "correct": "Muito bem! 'Hello' é usado para cumprimentar.",
+              "wrong": "A forma correta é 'Hello'."
+            }
+          }
+        ]
+      },
+      {
+        "id": "lesson-02",
+        "title": "Introductions",
+        "description": "Aprenda a se apresentar em inglês.",
+        "level": 2,
+        "language": "en-US",
+        "exercises": [
+          {
+            "id": "ex-001",
+            "type": "multiple-choice",
+            "question": "Como se diz 'Meu nome é...' em inglês?",
+            "options": [
+              { "label": "My name is", "isCorrect": true },
+              { "label": "Nice to meet you", "isCorrect": false },
+              { "label": "Goodbye", "isCorrect": false },
+              { "label": "How are you", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Correto! 'My name is' é usado para se apresentar.",
+              "wrong": "A forma certa de dizer 'Meu nome é' é 'My name is'."
+            }
+          },
+          {
+            "id": "ex-002",
+            "type": "translate",
+            "question": "Traduza: 'Prazer em conhecê-lo'",
+            "answer": ["nice to meet you"],
+            "feedback": {
+              "correct": "Muito bem!",
+              "wrong": "A resposta correta é 'Nice to meet you'."
+            }
+          },
+          {
+            "id": "ex-003",
+            "type": "multiple-choice",
+            "question": "Qual é a tradução de 'How are you?'",
+            "options": [
+              { "label": "Como você está?", "isCorrect": true },
+              { "label": "Quem é você?", "isCorrect": false },
+              { "label": "Onde você está?", "isCorrect": false },
+              { "label": "O que você faz?", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Perfeito!",
+              "wrong": "A tradução correta é 'Como você está?'."
+            }
+          },
+          {
+            "id": "ex-004",
+            "type": "translate",
+            "question": "Traduza: 'Eu sou estudante'",
+            "answer": ["i am a student", "i'm a student"],
+            "feedback": {
+              "correct": "Ótimo!",
+              "wrong": "Você pode dizer 'I am a student' ou 'I'm a student'."
+            }
+          },
+          {
+            "id": "ex-005",
+            "type": "multiple-choice",
+            "question": "Como responder educadamente a 'How are you?'",
+            "options": [
+              { "label": "I'm fine, thank you.", "isCorrect": true },
+              { "label": "My name is Ana.", "isCorrect": false },
+              { "label": "Yes, please.", "isCorrect": false },
+              { "label": "No, thank you.", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Muito bem!",
+              "wrong": "A resposta educada seria 'I'm fine, thank you.'"
+            }
+          },
+          {
+            "id": "ex-006",
+            "type": "fill-the-blank",
+            "sentence": "My name ___ Ana.",
+            "options": ["is", "are", "am", "be"],
+            "answer": "is",
+            "feedback": {
+              "correct": "Certo! 'My name is Ana' é a forma correta.",
+              "wrong": "A resposta certa é 'is'."
+            }
+          }
+        ]
+      },
+      {
+        "id": "lesson-03",
+        "title": "Basic Expressions",
+        "description": "Aprenda expressões úteis do dia a dia em inglês.",
+        "level": 3,
+        "language": "en-US",
+        "exercises": [
+          {
+            "id": "ex-001",
+            "type": "translate",
+            "question": "Traduza: 'Por favor'",
+            "answer": ["please"],
+            "feedback": {
+              "correct": "Certo!",
+              "wrong": "A resposta correta é 'Please'."
+            }
+          },
+          {
+            "id": "ex-002",
+            "type": "multiple-choice",
+            "question": "Qual é a tradução de 'Obrigado'?",
+            "options": [
+              { "label": "Thank you", "isCorrect": true },
+              { "label": "Sorry", "isCorrect": false },
+              { "label": "Please", "isCorrect": false },
+              { "label": "Excuse me", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Muito bem!",
+              "wrong": "A tradução correta é 'Thank you'."
+            }
+          },
+          {
+            "id": "ex-003",
+            "type": "translate",
+            "question": "Traduza: 'Desculpe'",
+            "answer": ["sorry"],
+            "feedback": {
+              "correct": "Perfeito!",
+              "wrong": "A forma certa é 'Sorry'."
+            }
+          },
+          {
+            "id": "ex-004",
+            "type": "multiple-choice",
+            "question": "Qual expressão você usaria para chamar a atenção educadamente?",
+            "options": [
+              { "label": "Excuse me", "isCorrect": true },
+              { "label": "Sorry", "isCorrect": false },
+              { "label": "Please", "isCorrect": false },
+              { "label": "Hello", "isCorrect": false }
+            ],
+            "feedback": {
+              "correct": "Muito educado!",
+              "wrong": "A resposta certa é 'Excuse me'."
+            }
+          },
+          {
+            "id": "ex-005",
+            "type": "translate",
+            "question": "Traduza: 'De nada'",
+            "answer": ["you're welcome", "you are welcome"],
+            "feedback": {
+              "correct": "Certo!",
+              "wrong": "A forma certa de dizer é 'You're welcome'."
+            }
+          },
+          {
+            "id": "ex-006",
+            "type": "fill-the-blank",
+            "sentence": "Thank you! – ___ welcome.",
+            "options": ["You're", "I'm", "They're", "He's"],
+            "answer": "You're",
+            "feedback": {
+              "correct": "Muito bem! A expressão correta é 'You're welcome'.",
+              "wrong": "A forma certa é 'You're'."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
