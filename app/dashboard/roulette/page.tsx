@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/hooks/useAuth';
 import { Roulette } from '@/components/ui/roulette';
@@ -10,6 +10,7 @@ import AnimatedBackground from '@/components/ui/animated-background';
 import MotionText from '@/components/ui/motion-text';
 import MotionButton from '@/components/ui/motion-button';
 import Navbar from '@/components/ui/navbar';
+import BetDialog from '@/components/ui/bet-dialog';
 import { motion } from 'framer-motion';
 
 export default function RoulettePage() {
@@ -17,6 +18,7 @@ export default function RoulettePage() {
   const router = useRouter();
   const { theme } = useTheme();
   const isDarkMode = theme === 'dark';
+  const [showBetDialog, setShowBetDialog] = useState(false);
 
   useEffect(() => {
     if (!userLoading && !isAuthenticated) {
@@ -29,7 +31,16 @@ export default function RoulettePage() {
     router.push('/login');
   };
 
-  const handleBackToDashboard = () => {
+  const handleBackClick = () => {
+    setShowBetDialog(true);
+  };
+
+  const handleCloseDialog = () => {
+    setShowBetDialog(false);
+  };
+
+  const handleConfirmBack = () => {
+    setShowBetDialog(false);
     router.push('/dashboard');
   };
 
@@ -71,7 +82,7 @@ export default function RoulettePage() {
             <section>
               <div className="flex items-center mb-8">
                 <MotionButton
-                  onClick={handleBackToDashboard}
+                  onClick={handleBackClick}
                   className={`mr-4 ${
                     isDarkMode 
                       ? '!bg-gray-800/80 !text-red-200 hover:!bg-gray-700/80 border border-gray-700' 
@@ -259,6 +270,13 @@ export default function RoulettePage() {
             </section>
           </main>
         </div>
+
+        {/* Diálogo de confirmação */}
+        <BetDialog 
+          isOpen={showBetDialog} 
+          onClose={handleCloseDialog} 
+          onConfirm={handleConfirmBack} 
+        />
 
         {/* Estilos globais */}
         <style jsx global>{`
